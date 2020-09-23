@@ -42,25 +42,21 @@ header ul li a {
     align-items: center;
 }
 
+#apps-icon {
+    color: gray;
+    padding-right: 0.5em;
+}
+
 #right-nav, #left-nav {
     display: flex;
 }
 
-#outer-user-circle {
-    display: inline-block;
+#avatar {
     border-top: 2px solid red;
     border-right: 2px solid blue;
     border-bottom: 2px solid green;
     border-left: 2px solid yellow;
     border-radius: 100%;
-}
-#inner-user-circle {
-    padding: 0.6em;
-    border-radius: 100%;
-    background: purple;
-    font-size: 1.2em;
-    color: white;
-    font-family: arial, sans-serif;
 }
 
 #inputs {
@@ -102,4 +98,37 @@ header ul li a {
     left: 0.6em;
     top: 0.6em;
     color: gray;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: cornsilk;
+    border-top: 1px solid lightgray;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0.5em;
+    padding: 0.5em;
+    overflow: hidden;
+}
+
+footer ul li {
+    float: left;
+}
+
+footer ul li a {
+    display: block;
+    text-align: center;
+    padding: 0.6em;
+    text-decoration: none;
+    color: gray;
+    font-family: arial, sans-serif;
+    font-size: 0.8em;
 }
